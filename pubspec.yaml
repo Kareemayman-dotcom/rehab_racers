@@ -9,11 +9,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  sizer: ^2.0.15
+  sizer: ^2.0.15  
+  flutter_bloc: ^8.1.4
+  vector_math: ^2.1.4
   arcore_flutter_plugin:
     git:
-      url: https://github.com/giandifra/arcore_flutter_plugin
-      ref: android-upgrading
+      url: https://github.com/Kareemayman-dotcom/arcore_flutter_plugin
   
 dev_dependencies:
   flutter_test:
@@ -22,3 +23,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+  - assets\streight_line.gltf
